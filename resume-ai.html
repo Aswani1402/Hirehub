@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CareerConnect - Resume AI</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <script src="js/script.js"></script>
+
+  <header class="navbar">
+    <h1>CareerConnect</h1>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="jobs.html">Jobs</a>
+      <a href="learn.html">Learn</a>
+      <a href="profile.html">Profile</a>
+      <a href="logout.html">Logout</a>
+    </nav>
+  </header>
+
+  <main class="resume-ai-main">
+    <h2>AI-Powered Resume Review</h2>
+    <form action="#" method="post" enctype="multipart/form-data" class="resume-form">
+      <label for="resume">Upload Your Resume (PDF)</label>
+      <input type="file" id="resume" name="resume" accept=".pdf" required />
+      <button type="submit" class="btn-primary">Analyze</button>
+    </form>
+    <div class="resume-feedback">
+      <!-- AI feedback will be displayed here -->
+    </div>
+  </main>
+</body>
+</html>
